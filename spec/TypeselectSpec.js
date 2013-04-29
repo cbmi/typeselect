@@ -119,7 +119,7 @@ define(['jquery','typeselect'], function($){
              done();
          });
 
-         async.it("Retrieves remove datasets", function(done){
+         async.it("Retrieves remote datasets", function(done){
              t = $('#source').typeselect({
                  // Note, there seems to be an issue where if you reuse a dataset name, even on a 
                  // totally new input, if the old dataset was local, and the new one is remote,
