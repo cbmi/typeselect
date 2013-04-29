@@ -1,0 +1,12 @@
+*.DS_Store
+*.sw?
+.sass-cache
+.watch-pid
+build
+css/style.css
+css/vocab/
+.idea
+node_modules
+.grunt
+_SpecRunner.html
+spec-runner.html
